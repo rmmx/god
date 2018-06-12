@@ -1,0 +1,46 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for GOD
+ */
+
+grammar god;
+ 
+
+
+public <godParticipation> =   
+agree |
+disagree |
+  but I still think the case  | 
+                      no not necessarily  |
+                      no i am thinking in |
+                      no i'm thinking in |
+                      there should not be 		|
+					  there was no indication of		|
+					  oh i don't know about that		|
+					   oh i do not know about that		|
+					  that is nonsense 	|
+					i don't know about		|
+					i don't agree with that		|
+					i could not understand what he was saying	|
+					but some of them are	|
+					its not necessarily	true	|
+					i think its not a 		|
+					I disagree completely with		|
+					i disagree	with	|
+					what the fuck are you saying  |
+					but if	you think that	|
+					i still don't think		|
+					i do not think		|
+					i can understand that but when		|
+					i can understand that but that is		| 
+					I agree with  that |
+				    Yes that is true  |
+				    i have to agree with 	|
+				    i have to agree with that	|
+				    That's definitely true;
+				    
+
+
+	
+	

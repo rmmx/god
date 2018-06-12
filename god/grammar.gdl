@@ -1,0 +1,629 @@
+digraph "grammar.gdl" {
+rankdir = LR
+
+	node1 [ label="<sil>", color=green, shape=box ]
+
+	node1 -> node5 [ label=0.0 ]
+	node5 [ label="", color=grey, shape=circle ]
+
+	node5 -> node9 [ label=0.0 ]
+	node9 [ label="", color=grey, shape=circle ]
+
+	node9 -> node11 [ label=0.0 ]
+	node11 [ label="digits", color=green, shape=box ]
+
+	node11 -> node2 [ label=0.0 ]
+	node2 [ label="<sil>", color=red, shape=box ]
+
+	node11 -> node202 [ label=0.0 ]
+	node202 [ label="<sil>", color=green, shape=box ]
+
+	node202 -> node2 [ label=0.0 ]
+	node202 -> node202 [ label=0.0 ]
+	node9 -> node12 [ label=0.0 ]
+	node12 [ label="", color=grey, shape=circle ]
+
+	node12 -> node16 [ label=0.0 ]
+	node16 [ label="go", color=green, shape=box ]
+
+	node16 -> node17 [ label=0.0 ]
+	node17 [ label="to", color=green, shape=box ]
+
+	node17 -> node18 [ label=0.0 ]
+	node18 [ label="", color=grey, shape=circle ]
+
+	node18 -> node22 [ label=0.0 ]
+	node22 [ label="the", color=green, shape=box ]
+
+	node22 -> node23 [ label=0.0 ]
+	node23 [ label="bank", color=green, shape=box ]
+
+	node23 -> node24 [ label=0.0 ]
+	node24 [ label="account", color=green, shape=box ]
+
+	node24 -> node2 [ label=0.0 ]
+	node24 -> node212 [ label=0.0 ]
+	node212 [ label="<sil>", color=green, shape=box ]
+
+	node212 -> node2 [ label=0.0 ]
+	node212 -> node212 [ label=0.0 ]
+	node23 -> node160 [ label=0.0 ]
+	node160 [ label="<sil>", color=green, shape=box ]
+
+	node160 -> node24 [ label=0.0 ]
+	node160 -> node160 [ label=0.0 ]
+	node22 -> node258 [ label=0.0 ]
+	node258 [ label="<sil>", color=green, shape=box ]
+
+	node258 -> node23 [ label=0.0 ]
+	node258 -> node258 [ label=0.0 ]
+	node18 -> node23 [ label=0.0 ]
+	node17 -> node190 [ label=0.0 ]
+	node190 [ label="<sil>", color=green, shape=box ]
+
+	node190 -> node18 [ label=0.0 ]
+	node190 -> node190 [ label=0.0 ]
+	node16 -> node232 [ label=0.0 ]
+	node232 [ label="<sil>", color=green, shape=box ]
+
+	node232 -> node17 [ label=0.0 ]
+	node232 -> node232 [ label=0.0 ]
+	node12 -> node23 [ label=0.0 ]
+	node9 -> node25 [ label=0.0 ]
+	node25 [ label="weather", color=green, shape=box ]
+
+	node25 -> node26 [ label=0.0 ]
+	node26 [ label="forecast", color=green, shape=box ]
+
+	node26 -> node2 [ label=0.0 ]
+	node26 -> node142 [ label=0.0 ]
+	node142 [ label="<sil>", color=green, shape=box ]
+
+	node142 -> node2 [ label=0.0 ]
+	node142 -> node142 [ label=0.0 ]
+	node25 -> node174 [ label=0.0 ]
+	node174 [ label="<sil>", color=green, shape=box ]
+
+	node174 -> node26 [ label=0.0 ]
+	node174 -> node174 [ label=0.0 ]
+	node9 -> node27 [ label=0.0 ]
+	node27 [ label="exit", color=green, shape=box ]
+
+	node27 -> node28 [ label=0.0 ]
+	node28 [ label="", color=grey, shape=circle ]
+
+	node28 -> node32 [ label=0.0 ]
+	node32 [ label="", color=grey, shape=circle ]
+
+	node32 -> node36 [ label=0.0 ]
+	node36 [ label="the", color=green, shape=box ]
+
+	node36 -> node37 [ label=0.0 ]
+	node37 [ label="program", color=green, shape=box ]
+
+	node37 -> node2 [ label=0.0 ]
+	node37 -> node170 [ label=0.0 ]
+	node170 [ label="<sil>", color=green, shape=box ]
+
+	node170 -> node2 [ label=0.0 ]
+	node170 -> node170 [ label=0.0 ]
+	node36 -> node144 [ label=0.0 ]
+	node144 [ label="<sil>", color=green, shape=box ]
+
+	node144 -> node37 [ label=0.0 ]
+	node144 -> node144 [ label=0.0 ]
+	node32 -> node37 [ label=0.0 ]
+	node28 -> node2 [ label=0.0 ]
+	node27 -> node194 [ label=0.0 ]
+	node194 [ label="<sil>", color=green, shape=box ]
+
+	node194 -> node28 [ label=0.0 ]
+	node194 -> node194 [ label=0.0 ]
+	node5 -> node40 [ label=0.0 ]
+	node40 [ label="", color=grey, shape=circle ]
+
+	node40 -> node42 [ label=0.0 ]
+	node42 [ label="", color=grey, shape=circle ]
+
+	node42 -> node44 [ label=0.0 ]
+	node44 [ label="", color=grey, shape=circle ]
+
+	node44 -> node46 [ label=0.0 ]
+	node46 [ label="show", color=green, shape=box ]
+
+	node46 -> node48 [ label=0.0 ]
+	node48 [ label="balance", color=green, shape=box ]
+
+	node48 -> node2 [ label=0.0 ]
+	node48 -> node254 [ label=0.0 ]
+	node254 [ label="<sil>", color=green, shape=box ]
+
+	node254 -> node2 [ label=0.0 ]
+	node254 -> node254 [ label=0.0 ]
+	node46 -> node146 [ label=0.0 ]
+	node146 [ label="<sil>", color=green, shape=box ]
+
+	node146 -> node48 [ label=0.0 ]
+	node146 -> node146 [ label=0.0 ]
+	node44 -> node47 [ label=0.0 ]
+	node47 [ label="check", color=green, shape=box ]
+
+	node47 -> node48 [ label=0.0 ]
+	node47 -> node166 [ label=0.0 ]
+	node166 [ label="<sil>", color=green, shape=box ]
+
+	node166 -> node48 [ label=0.0 ]
+	node166 -> node166 [ label=0.0 ]
+	node42 -> node48 [ label=0.0 ]
+	node40 -> node49 [ label=0.0 ]
+	node49 [ label="deposit", color=green, shape=box ]
+
+	node49 -> node58 [ label=0.0 ]
+	node58 [ label="", color=grey, shape=circle ]
+
+	node58 -> node60 [ label=0.0 ]
+	node60 [ label="oh", color=green, shape=box ]
+
+	node60 -> node57 [ label=0.0 ]
+	node57 [ label="", color=grey, shape=circle ]
+
+	node57 -> node71 [ label=0.0 ]
+	node71 [ label="", color=grey, shape=circle ]
+
+	node71 -> node75 [ label=0.0 ]
+	node75 [ label="point", color=green, shape=box ]
+
+	node75 -> node80 [ label=0.0 ]
+	node80 [ label="", color=grey, shape=circle ]
+
+	node80 -> node82 [ label=0.0 ]
+	node82 [ label="oh", color=green, shape=box ]
+
+	node82 -> node79 [ label=0.0 ]
+	node79 [ label="", color=grey, shape=circle ]
+
+	node79 -> node2 [ label=0.0 ]
+	node79 -> node80 [ label=0.0 ]
+	node82 -> node154 [ label=0.0 ]
+	node154 [ label="<sil>", color=green, shape=box ]
+
+	node154 -> node79 [ label=0.0 ]
+	node154 -> node154 [ label=0.0 ]
+	node80 -> node83 [ label=0.0 ]
+	node83 [ label="zero", color=green, shape=box ]
+
+	node83 -> node79 [ label=0.0 ]
+	node83 -> node248 [ label=0.0 ]
+	node248 [ label="<sil>", color=green, shape=box ]
+
+	node248 -> node79 [ label=0.0 ]
+	node248 -> node248 [ label=0.0 ]
+	node80 -> node84 [ label=0.0 ]
+	node84 [ label="one", color=green, shape=box ]
+
+	node84 -> node79 [ label=0.0 ]
+	node84 -> node196 [ label=0.0 ]
+	node196 [ label="<sil>", color=green, shape=box ]
+
+	node196 -> node79 [ label=0.0 ]
+	node196 -> node196 [ label=0.0 ]
+	node80 -> node85 [ label=0.0 ]
+	node85 [ label="two", color=green, shape=box ]
+
+	node85 -> node79 [ label=0.0 ]
+	node85 -> node178 [ label=0.0 ]
+	node178 [ label="<sil>", color=green, shape=box ]
+
+	node178 -> node79 [ label=0.0 ]
+	node178 -> node178 [ label=0.0 ]
+	node80 -> node86 [ label=0.0 ]
+	node86 [ label="three", color=green, shape=box ]
+
+	node86 -> node79 [ label=0.0 ]
+	node86 -> node186 [ label=0.0 ]
+	node186 [ label="<sil>", color=green, shape=box ]
+
+	node186 -> node79 [ label=0.0 ]
+	node186 -> node186 [ label=0.0 ]
+	node80 -> node87 [ label=0.0 ]
+	node87 [ label="four", color=green, shape=box ]
+
+	node87 -> node79 [ label=0.0 ]
+	node87 -> node138 [ label=0.0 ]
+	node138 [ label="<sil>", color=green, shape=box ]
+
+	node138 -> node79 [ label=0.0 ]
+	node138 -> node138 [ label=0.0 ]
+	node80 -> node88 [ label=0.0 ]
+	node88 [ label="five", color=green, shape=box ]
+
+	node88 -> node79 [ label=0.0 ]
+	node88 -> node140 [ label=0.0 ]
+	node140 [ label="<sil>", color=green, shape=box ]
+
+	node140 -> node79 [ label=0.0 ]
+	node140 -> node140 [ label=0.0 ]
+	node80 -> node89 [ label=0.0 ]
+	node89 [ label="six", color=green, shape=box ]
+
+	node89 -> node79 [ label=0.0 ]
+	node89 -> node226 [ label=0.0 ]
+	node226 [ label="<sil>", color=green, shape=box ]
+
+	node226 -> node79 [ label=0.0 ]
+	node226 -> node226 [ label=0.0 ]
+	node80 -> node90 [ label=0.0 ]
+	node90 [ label="seven", color=green, shape=box ]
+
+	node90 -> node79 [ label=0.0 ]
+	node90 -> node236 [ label=0.0 ]
+	node236 [ label="<sil>", color=green, shape=box ]
+
+	node236 -> node79 [ label=0.0 ]
+	node236 -> node236 [ label=0.0 ]
+	node80 -> node91 [ label=0.0 ]
+	node91 [ label="eight", color=green, shape=box ]
+
+	node91 -> node79 [ label=0.0 ]
+	node91 -> node230 [ label=0.0 ]
+	node230 [ label="<sil>", color=green, shape=box ]
+
+	node230 -> node79 [ label=0.0 ]
+	node230 -> node230 [ label=0.0 ]
+	node80 -> node92 [ label=0.0 ]
+	node92 [ label="nine", color=green, shape=box ]
+
+	node92 -> node79 [ label=0.0 ]
+	node92 -> node184 [ label=0.0 ]
+	node184 [ label="<sil>", color=green, shape=box ]
+
+	node184 -> node79 [ label=0.0 ]
+	node184 -> node184 [ label=0.0 ]
+	node75 -> node250 [ label=0.0 ]
+	node250 [ label="<sil>", color=green, shape=box ]
+
+	node250 -> node80 [ label=0.0 ]
+	node250 -> node250 [ label=0.0 ]
+	node71 -> node2 [ label=0.0 ]
+	node57 -> node58 [ label=0.0 ]
+	node60 -> node200 [ label=0.0 ]
+	node200 [ label="<sil>", color=green, shape=box ]
+
+	node200 -> node57 [ label=0.0 ]
+	node200 -> node200 [ label=0.0 ]
+	node58 -> node61 [ label=0.0 ]
+	node61 [ label="zero", color=green, shape=box ]
+
+	node61 -> node57 [ label=0.0 ]
+	node61 -> node224 [ label=0.0 ]
+	node224 [ label="<sil>", color=green, shape=box ]
+
+	node224 -> node57 [ label=0.0 ]
+	node224 -> node224 [ label=0.0 ]
+	node58 -> node62 [ label=0.0 ]
+	node62 [ label="one", color=green, shape=box ]
+
+	node62 -> node57 [ label=0.0 ]
+	node62 -> node216 [ label=0.0 ]
+	node216 [ label="<sil>", color=green, shape=box ]
+
+	node216 -> node57 [ label=0.0 ]
+	node216 -> node216 [ label=0.0 ]
+	node58 -> node63 [ label=0.0 ]
+	node63 [ label="two", color=green, shape=box ]
+
+	node63 -> node57 [ label=0.0 ]
+	node63 -> node168 [ label=0.0 ]
+	node168 [ label="<sil>", color=green, shape=box ]
+
+	node168 -> node57 [ label=0.0 ]
+	node168 -> node168 [ label=0.0 ]
+	node58 -> node64 [ label=0.0 ]
+	node64 [ label="three", color=green, shape=box ]
+
+	node64 -> node57 [ label=0.0 ]
+	node64 -> node182 [ label=0.0 ]
+	node182 [ label="<sil>", color=green, shape=box ]
+
+	node182 -> node57 [ label=0.0 ]
+	node182 -> node182 [ label=0.0 ]
+	node58 -> node65 [ label=0.0 ]
+	node65 [ label="four", color=green, shape=box ]
+
+	node65 -> node57 [ label=0.0 ]
+	node65 -> node164 [ label=0.0 ]
+	node164 [ label="<sil>", color=green, shape=box ]
+
+	node164 -> node57 [ label=0.0 ]
+	node164 -> node164 [ label=0.0 ]
+	node58 -> node66 [ label=0.0 ]
+	node66 [ label="five", color=green, shape=box ]
+
+	node66 -> node57 [ label=0.0 ]
+	node66 -> node158 [ label=0.0 ]
+	node158 [ label="<sil>", color=green, shape=box ]
+
+	node158 -> node57 [ label=0.0 ]
+	node158 -> node158 [ label=0.0 ]
+	node58 -> node67 [ label=0.0 ]
+	node67 [ label="six", color=green, shape=box ]
+
+	node67 -> node57 [ label=0.0 ]
+	node67 -> node240 [ label=0.0 ]
+	node240 [ label="<sil>", color=green, shape=box ]
+
+	node240 -> node57 [ label=0.0 ]
+	node240 -> node240 [ label=0.0 ]
+	node58 -> node68 [ label=0.0 ]
+	node68 [ label="seven", color=green, shape=box ]
+
+	node68 -> node57 [ label=0.0 ]
+	node68 -> node152 [ label=0.0 ]
+	node152 [ label="<sil>", color=green, shape=box ]
+
+	node152 -> node57 [ label=0.0 ]
+	node152 -> node152 [ label=0.0 ]
+	node58 -> node69 [ label=0.0 ]
+	node69 [ label="eight", color=green, shape=box ]
+
+	node69 -> node57 [ label=0.0 ]
+	node69 -> node172 [ label=0.0 ]
+	node172 [ label="<sil>", color=green, shape=box ]
+
+	node172 -> node57 [ label=0.0 ]
+	node172 -> node172 [ label=0.0 ]
+	node58 -> node70 [ label=0.0 ]
+	node70 [ label="nine", color=green, shape=box ]
+
+	node70 -> node57 [ label=0.0 ]
+	node70 -> node262 [ label=0.0 ]
+	node262 [ label="<sil>", color=green, shape=box ]
+
+	node262 -> node57 [ label=0.0 ]
+	node262 -> node262 [ label=0.0 ]
+	node49 -> node218 [ label=0.0 ]
+	node218 [ label="<sil>", color=green, shape=box ]
+
+	node218 -> node58 [ label=0.0 ]
+	node218 -> node218 [ label=0.0 ]
+	node40 -> node93 [ label=0.0 ]
+	node93 [ label="withdraw", color=green, shape=box ]
+
+	node93 -> node102 [ label=0.0 ]
+	node102 [ label="", color=grey, shape=circle ]
+
+	node102 -> node104 [ label=0.0 ]
+	node104 [ label="oh", color=green, shape=box ]
+
+	node104 -> node101 [ label=0.0 ]
+	node101 [ label="", color=grey, shape=circle ]
+
+	node101 -> node115 [ label=0.0 ]
+	node115 [ label="", color=grey, shape=circle ]
+
+	node115 -> node119 [ label=0.0 ]
+	node119 [ label="point", color=green, shape=box ]
+
+	node119 -> node124 [ label=0.0 ]
+	node124 [ label="", color=grey, shape=circle ]
+
+	node124 -> node126 [ label=0.0 ]
+	node126 [ label="oh", color=green, shape=box ]
+
+	node126 -> node123 [ label=0.0 ]
+	node123 [ label="", color=grey, shape=circle ]
+
+	node123 -> node2 [ label=0.0 ]
+	node123 -> node124 [ label=0.0 ]
+	node126 -> node252 [ label=0.0 ]
+	node252 [ label="<sil>", color=green, shape=box ]
+
+	node252 -> node123 [ label=0.0 ]
+	node252 -> node252 [ label=0.0 ]
+	node124 -> node127 [ label=0.0 ]
+	node127 [ label="zero", color=green, shape=box ]
+
+	node127 -> node123 [ label=0.0 ]
+	node127 -> node222 [ label=0.0 ]
+	node222 [ label="<sil>", color=green, shape=box ]
+
+	node222 -> node123 [ label=0.0 ]
+	node222 -> node222 [ label=0.0 ]
+	node124 -> node128 [ label=0.0 ]
+	node128 [ label="one", color=green, shape=box ]
+
+	node128 -> node123 [ label=0.0 ]
+	node128 -> node228 [ label=0.0 ]
+	node228 [ label="<sil>", color=green, shape=box ]
+
+	node228 -> node123 [ label=0.0 ]
+	node228 -> node228 [ label=0.0 ]
+	node124 -> node129 [ label=0.0 ]
+	node129 [ label="two", color=green, shape=box ]
+
+	node129 -> node123 [ label=0.0 ]
+	node129 -> node150 [ label=0.0 ]
+	node150 [ label="<sil>", color=green, shape=box ]
+
+	node150 -> node123 [ label=0.0 ]
+	node150 -> node150 [ label=0.0 ]
+	node124 -> node130 [ label=0.0 ]
+	node130 [ label="three", color=green, shape=box ]
+
+	node130 -> node123 [ label=0.0 ]
+	node130 -> node180 [ label=0.0 ]
+	node180 [ label="<sil>", color=green, shape=box ]
+
+	node180 -> node123 [ label=0.0 ]
+	node180 -> node180 [ label=0.0 ]
+	node124 -> node131 [ label=0.0 ]
+	node131 [ label="four", color=green, shape=box ]
+
+	node131 -> node123 [ label=0.0 ]
+	node131 -> node188 [ label=0.0 ]
+	node188 [ label="<sil>", color=green, shape=box ]
+
+	node188 -> node123 [ label=0.0 ]
+	node188 -> node188 [ label=0.0 ]
+	node124 -> node132 [ label=0.0 ]
+	node132 [ label="five", color=green, shape=box ]
+
+	node132 -> node123 [ label=0.0 ]
+	node132 -> node192 [ label=0.0 ]
+	node192 [ label="<sil>", color=green, shape=box ]
+
+	node192 -> node123 [ label=0.0 ]
+	node192 -> node192 [ label=0.0 ]
+	node124 -> node133 [ label=0.0 ]
+	node133 [ label="six", color=green, shape=box ]
+
+	node133 -> node123 [ label=0.0 ]
+	node133 -> node176 [ label=0.0 ]
+	node176 [ label="<sil>", color=green, shape=box ]
+
+	node176 -> node123 [ label=0.0 ]
+	node176 -> node176 [ label=0.0 ]
+	node124 -> node134 [ label=0.0 ]
+	node134 [ label="seven", color=green, shape=box ]
+
+	node134 -> node123 [ label=0.0 ]
+	node134 -> node242 [ label=0.0 ]
+	node242 [ label="<sil>", color=green, shape=box ]
+
+	node242 -> node123 [ label=0.0 ]
+	node242 -> node242 [ label=0.0 ]
+	node124 -> node135 [ label=0.0 ]
+	node135 [ label="eight", color=green, shape=box ]
+
+	node135 -> node123 [ label=0.0 ]
+	node135 -> node210 [ label=0.0 ]
+	node210 [ label="<sil>", color=green, shape=box ]
+
+	node210 -> node123 [ label=0.0 ]
+	node210 -> node210 [ label=0.0 ]
+	node124 -> node136 [ label=0.0 ]
+	node136 [ label="nine", color=green, shape=box ]
+
+	node136 -> node123 [ label=0.0 ]
+	node136 -> node238 [ label=0.0 ]
+	node238 [ label="<sil>", color=green, shape=box ]
+
+	node238 -> node123 [ label=0.0 ]
+	node238 -> node238 [ label=0.0 ]
+	node119 -> node260 [ label=0.0 ]
+	node260 [ label="<sil>", color=green, shape=box ]
+
+	node260 -> node124 [ label=0.0 ]
+	node260 -> node260 [ label=0.0 ]
+	node115 -> node2 [ label=0.0 ]
+	node101 -> node102 [ label=0.0 ]
+	node104 -> node234 [ label=0.0 ]
+	node234 [ label="<sil>", color=green, shape=box ]
+
+	node234 -> node101 [ label=0.0 ]
+	node234 -> node234 [ label=0.0 ]
+	node102 -> node105 [ label=0.0 ]
+	node105 [ label="zero", color=green, shape=box ]
+
+	node105 -> node101 [ label=0.0 ]
+	node105 -> node256 [ label=0.0 ]
+	node256 [ label="<sil>", color=green, shape=box ]
+
+	node256 -> node101 [ label=0.0 ]
+	node256 -> node256 [ label=0.0 ]
+	node102 -> node106 [ label=0.0 ]
+	node106 [ label="one", color=green, shape=box ]
+
+	node106 -> node101 [ label=0.0 ]
+	node106 -> node162 [ label=0.0 ]
+	node162 [ label="<sil>", color=green, shape=box ]
+
+	node162 -> node101 [ label=0.0 ]
+	node162 -> node162 [ label=0.0 ]
+	node102 -> node107 [ label=0.0 ]
+	node107 [ label="two", color=green, shape=box ]
+
+	node107 -> node101 [ label=0.0 ]
+	node107 -> node208 [ label=0.0 ]
+	node208 [ label="<sil>", color=green, shape=box ]
+
+	node208 -> node101 [ label=0.0 ]
+	node208 -> node208 [ label=0.0 ]
+	node102 -> node108 [ label=0.0 ]
+	node108 [ label="three", color=green, shape=box ]
+
+	node108 -> node101 [ label=0.0 ]
+	node108 -> node214 [ label=0.0 ]
+	node214 [ label="<sil>", color=green, shape=box ]
+
+	node214 -> node101 [ label=0.0 ]
+	node214 -> node214 [ label=0.0 ]
+	node102 -> node109 [ label=0.0 ]
+	node109 [ label="four", color=green, shape=box ]
+
+	node109 -> node101 [ label=0.0 ]
+	node109 -> node156 [ label=0.0 ]
+	node156 [ label="<sil>", color=green, shape=box ]
+
+	node156 -> node101 [ label=0.0 ]
+	node156 -> node156 [ label=0.0 ]
+	node102 -> node110 [ label=0.0 ]
+	node110 [ label="five", color=green, shape=box ]
+
+	node110 -> node101 [ label=0.0 ]
+	node110 -> node206 [ label=0.0 ]
+	node206 [ label="<sil>", color=green, shape=box ]
+
+	node206 -> node101 [ label=0.0 ]
+	node206 -> node206 [ label=0.0 ]
+	node102 -> node111 [ label=0.0 ]
+	node111 [ label="six", color=green, shape=box ]
+
+	node111 -> node101 [ label=0.0 ]
+	node111 -> node148 [ label=0.0 ]
+	node148 [ label="<sil>", color=green, shape=box ]
+
+	node148 -> node101 [ label=0.0 ]
+	node148 -> node148 [ label=0.0 ]
+	node102 -> node112 [ label=0.0 ]
+	node112 [ label="seven", color=green, shape=box ]
+
+	node112 -> node101 [ label=0.0 ]
+	node112 -> node220 [ label=0.0 ]
+	node220 [ label="<sil>", color=green, shape=box ]
+
+	node220 -> node101 [ label=0.0 ]
+	node220 -> node220 [ label=0.0 ]
+	node102 -> node113 [ label=0.0 ]
+	node113 [ label="eight", color=green, shape=box ]
+
+	node113 -> node101 [ label=0.0 ]
+	node113 -> node246 [ label=0.0 ]
+	node246 [ label="<sil>", color=green, shape=box ]
+
+	node246 -> node101 [ label=0.0 ]
+	node246 -> node246 [ label=0.0 ]
+	node102 -> node114 [ label=0.0 ]
+	node114 [ label="nine", color=green, shape=box ]
+
+	node114 -> node101 [ label=0.0 ]
+	node114 -> node244 [ label=0.0 ]
+	node244 [ label="<sil>", color=green, shape=box ]
+
+	node244 -> node101 [ label=0.0 ]
+	node244 -> node244 [ label=0.0 ]
+	node93 -> node198 [ label=0.0 ]
+	node198 [ label="<sil>", color=green, shape=box ]
+
+	node198 -> node102 [ label=0.0 ]
+	node198 -> node198 [ label=0.0 ]
+	node40 -> node137 [ label=0.0 ]
+	node137 [ label="back", color=green, shape=box ]
+
+	node137 -> node2 [ label=0.0 ]
+	node137 -> node204 [ label=0.0 ]
+	node204 [ label="<sil>", color=green, shape=box ]
+
+	node204 -> node2 [ label=0.0 ]
+	node204 -> node204 [ label=0.0 ]
+}
